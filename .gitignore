@@ -27,12 +27,26 @@ coverage/
 # nyc test coverage
 .nyc_output
 
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons
+build/Release
+
 # Dependency directories
-node_modules/
 jspm_packages/
 
 # Optional npm cache directory
 .npm
+
+# Optional eslint cache
+.eslintcache
 
 # Optional REPL history
 .node_repl_history
@@ -45,6 +59,31 @@ jspm_packages/
 
 # dotenv environment variables file
 .env
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
 
 # IDE files
 .vscode/
@@ -61,5 +100,5 @@ jspm_packages/
 ehthumbs.db
 Thumbs.db
 
-# Uploads directory (optional - remove if you want to include uploads)
-uploads/ 
+# Uploads directory (if you don't want to track uploaded files)
+uploads/
