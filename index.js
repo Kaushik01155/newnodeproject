@@ -9,7 +9,7 @@ const registerRoutes = require('./routes/registerRoutes');
 const articalRoutes = require('./routes/articleRoutes');
 const userregisterroutes = require('./routes/userregisterroutes');
 const path = require('path');
-const { PORT, MONGO_URL, MONGO_LIVE_URL } = require('./config/constant');
+const { PORT, MONGO_LIVE_URL } = require('./config/constant');
 
 const app = express();
 
