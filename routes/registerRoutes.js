@@ -1,7 +1,6 @@
 const express = require('express');
 const registerRoutes = express.Router();
-const register = require('../models/Register');
-const {  Registers, Login, Article } = require('../controllers/RegisterController');
+const {  Registers, Login } = require('../controllers/RegisterController');
 
 
 registerRoutes.post("/register",Registers);
