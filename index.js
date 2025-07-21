@@ -14,7 +14,7 @@ const { PORT, MONGO_URL, MONGO_LIVE_URL } = require('./config/constant');
 const app = express();
 
 app.use(cors());
-mongoose.connect(process.env.MONGO_URL).then(() => console.log('Database Connected!'));
+mongoose.connect(process.env.MONGO_LIVE_URL).then(() => console.log('Database Connected!'));
 
 app.use(express.json());
 app.use(bodyParser.json());
